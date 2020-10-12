@@ -1,0 +1,23 @@
+Lab2
+
+git config --global user.name " Kadi_chahla "
+git config --global user.email " k.chahla@yahoo.com "
+ mkdir lab2
+cd lab2
+~/lab2$ touch Kadi.txt
+pwd
+ls
+echo " hello M2 syscom " > Kadi.txt
+git init
+git status
+git add Kadi.txt
+git status
+git commit-m "just some test"
+git remote add origin https://github.com/chahlakadi/lab2.git
+git branch -M master
+git push -u origin master
+git pull
+ls
+cd
+ cd Desktop/
+git clone https://github.com/chahlakadi/lab2.git
